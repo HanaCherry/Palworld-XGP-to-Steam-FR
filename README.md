@@ -1,6 +1,10 @@
 # Palworld XGP vers Steam FR
 
-English documentation: [README_EN.md](README_EN.md)
+### Langue / Language
+
+**[Français](README.md)** | **[English](README_EN.md)**
+
+> English users: open the complete [English README](README_EN.md).
 
 Outil Windows en français pour extraire des sauvegardes Xbox Game Pass et transférer automatiquement un monde **Palworld PC Game Pass vers Steam**.
 
