@@ -1,5 +1,7 @@
 # Palworld XGP vers Steam FR
 
+English documentation: [README_EN.md](README_EN.md)
+
 Outil Windows en français pour extraire des sauvegardes Xbox Game Pass et transférer automatiquement un monde **Palworld PC Game Pass vers Steam**.
 
 Le transfert Palworld prend en charge le format moderne Xbox `Level/01.sav` (CNK/PLZ), le convertit au format Steam PLM et copie le monde, le personnage et les options nécessaires. Une sauvegarde ZIP du monde Steam est créée avant chaque remplacement.
@@ -14,7 +16,7 @@ Le transfert Palworld prend en charge le format moderne Xbox `Level/01.sav` (CNK
 
 ## Utilisation
 
-1. Téléchargez l'EXE depuis la section **Releases** du dépôt.
+1. Téléchargez l'EXE français ou anglais depuis la section **Releases** du dépôt.
 2. Lancez-le sous le compte Windows qui possède les sauvegardes.
 3. Choisissez `2. Transférer automatiquement Palworld de Xbox Game Pass vers Steam`.
 4. Sélectionnez la sauvegarde Xbox puis le monde Steam temporaire.
@@ -54,6 +56,8 @@ Le test intégré du moteur de conversion peut être lancé avec :
 ```powershell
 python main.py --test-palworld
 ```
+
+La version anglaise utilise `main_en.py` et accepte `YES` pour les confirmations.
 
 ## Crédits et licence
 
